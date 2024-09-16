@@ -4,7 +4,7 @@ class Node:
         self.next = None
 
 
-class LinkedList:
+class SinglyLinkedList:
     def __init__(self, value):
         new_node = Node(value)
         self.head = new_node
@@ -126,7 +126,7 @@ class LinkedList:
 
 
 # Test and Debug
-my_list = LinkedList(1)
+my_list = SinglyLinkedList(1)
 my_list.print()
 
 # Append values to the list
